@@ -1,0 +1,31 @@
+<div id="ptitle" class="page-title page-title_anime">
+    <div class="page-title__text page-title__text--russian">{{ page.title }}</div>
+    <div class="page-title__text page-title__text--japanese">{{ page.title_jp }}</div>
+</div>
+
+<noscript>
+    <div id="warn_player">Включите пожалуйста Javascript!</div>
+</noscript>
+
+<div class="post-container post-container_video">
+
+    <ul class="post-container__video-select video-select">
+        <li class="video-select__item">
+            <span class="link-button link-button_disabled video-select__link video-select__link_prev">Назад</span>
+        <li class="video-select__item">
+            <span class="link-button link-button_disabled video-select__link video-select__link_next">Вперёд</span>
+        <li class="video-select__item video-select__item_center">
+            <div id="select" class="video-select__list"></div>        
+    </ul>
+    <div id="player_container" class="player-box post-container__player-box">
+        <img class="player-box__aspectratio" src="/assets/img/16x9.png" alt=""/>
+        <div id="player" class="player-box__video"></div>
+    </div>
+</div>
+
+<script src="/assets/player.js">
+</script>
+
+<div class="post_footer">
+    <a class="link-button" href="/">На главную</a>
+</div>
