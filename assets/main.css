@@ -724,8 +724,3 @@ body{
     z-index:2;
     box-shadow:0 0 40px 5px rgba(0,0,0,.95)
 }
-.player-box__video:empty{
-    z-index:3;
-    background:url(img/emptyplayer.png);
-    background-size:contain
-}
