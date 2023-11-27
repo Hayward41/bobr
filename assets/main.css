@@ -135,11 +135,11 @@ body{
     -webkit-tap-highlight-color:rgba(220,121,24,.25)
 }
 ::-moz-selection{
-    background-color:rgba(255,166,53,.75);
+    background-color:rgba(255, 60, 53, 0.75);
     color:#fff
 }
 ::selection{
-    background-color:rgba(255,166,53,.75);
+    background-color:rgba(255, 60, 53, 0.75);
     color:#fff
 }
 .social-icons{
@@ -402,7 +402,7 @@ body{
         transform:scale(1.02)
     }
     .post:focus-within .post__main-link{
-        color:#ffa635
+        color:#ff3535
     }
     .post-container{
         margin-left:5%;
@@ -448,7 +448,7 @@ body{
     line-height:40px;
     box-sizing:border-box;
     border:1px solid transparent;
-    box-shadow:0 0 0 1px #ff650d;
+    box-shadow:0 0 0 1px #ff0d0d;
     border-radius:5px;
     text-decoration:none;
     background:rgba(255,255,255,.1)
@@ -459,14 +459,14 @@ body{
         margin-right:0
     }
     .link-button:not(.link-button_disabled):focus,.link-button:not(.link-button_disabled):hover,.link:not(.link_disabled):focus,.link:not(.link_disabled):hover,.select-button:not(.select-button_disabled):focus,.select-button:not(.select-button_disabled):hover,.select-button__select:not(.select-button__select_disabled):focus,.select-button__select:not(.select-button__select_disabled):hover{
-        color:#ffa635
+        color:#ff3535
     }
     .link img{
         transition:.1s ease-in-out
     }
     .link-button:not(.link-button_disabled):focus,.link-button:not(.link-button_disabled):hover,.select-button__select:not(.select-button__select_disabled):focus,.select-button__select:not(.select-button__select_disabled):hover{
         background:rgba(255,255,255,.2);
-        box-shadow:0 0 0 1px #ffa635
+        box-shadow:0 0 0 1px #ff3535
     }
 }
 .link-button{
@@ -541,7 +541,7 @@ body{
     }
     .select-button:focus-within:after{
         opacity:1;
-        color:#ffa635
+        color:#ff3535
     }
     .logo--withlink{
         transition:.1s ease-in-out
