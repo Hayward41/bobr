@@ -435,7 +435,7 @@ body{
     margin:10px 10px 4px
 }
 .link,.link-button,.select-button,.select-button__select{
-    color:#ff650d
+    color:#ff0d0d
 }
 .link-button:not(.link-button_disabled):focus,.link-button:not(.link-button_disabled):hover,.link:not(.link_disabled):focus,.link:not(.link_disabled):hover,.select-button:not(.select-button_disabled):focus,.select-button:not(.select-button_disabled):hover,.select-button__select:not(.select-button__select_disabled):focus,.select-button__select:not(.select-button__select_disabled):hover{
     transition:.1s ease-in-out
@@ -503,10 +503,10 @@ body{
     outline:0!important;
     border-color:transparent!important;
     color:transparent;
-    text-shadow:0 0 0 #ff650d
+    text-shadow:0 0 0 #ff3d0d
 }
 .select-button__select *{
-    color:#ff650d;
+    color:#ff3d0d;
     text-shadow:none
 }
 .select-button__select:focus,.select-button__select:hover{
